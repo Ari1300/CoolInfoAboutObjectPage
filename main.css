@@ -1,17 +1,62 @@
 body{
-    background-color: yellow;
+  background-color: lightgray;
 }
 h1{
-  font-size: 75px;
-  color: blue;
+  font-size: 65px;
+  color: yellow;
   text-align: center;
 }
-h2{
-  font-size: 50px;
-  color: blue;
+h3{
+  font-size: 45px;
+  color: yellow;
   text-align: center;
 }
-h6{
-  color: blue;
+h4{
+  font-size: 45px;
+  color: yellow;
   text-align: center;
+}
+.Product{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+}
+.Line1{
+  position: absolute;
+  background-color: darkgray;
+  width: 200px;
+  height: 4px;
+  transform: rotate(20deg);
+  top: 480px;
+  left: 335px;
+}
+.Line2{
+  position: absolute;
+  background-color: darkgray;
+  width: 200px;
+  height: 4px;
+  transform: rotate(330deg);
+  top: 440px;
+  right: 790px;
+}
+.Line2 h3{
+  font-size: 20px;
+  color: red;
+}
+#Line1{
+  position: absolute;
+  top: 390px;
+  left: 160px;
+  width: 180px;
+  font-size: 20px;
+  color: red;
+}
+#Line2{
+  position: absolute;
+  top: 340px;
+  right: 660px;
+  width: 180px;
+  font-size: 20px;
+  color: red;
 }
